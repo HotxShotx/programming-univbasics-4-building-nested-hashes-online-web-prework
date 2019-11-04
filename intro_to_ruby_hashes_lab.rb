@@ -37,14 +37,14 @@ def monopoly_with_fourth_tier
 			base: {
 				 trains: 7,
 				names: {
-					Ruth:	{ "age" => "30"}
-					Mat:	{"age" => "25"}
-					Andrew: {"age" => "16"}
+					:Ruth =>	{ "age" => "30"}
+					:Mat =>	{"age" => "25"}
+					:Andrew => {"age" => "16"}
 				},
 				cars: {
-					Benz: {"price" => "$35000"}
-					Rolls: {"price" => "$60000"}
-					Toyota: {"price" => "15000"}
+					Benz => {"price" => "$35000"}
+					Rolls => {"price" => "$60000"}
+					Toyota => {"price" => "15000"}
 				 }
 			}
 		}
