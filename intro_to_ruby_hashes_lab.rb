@@ -18,15 +18,15 @@ def monopoly_with_third_tier
 	hash = {
 			base: {
 				 trains: 7,
-				names: {
-					Ruth:	{}
-					Mat:	{}
-					Andrew: {}
+				names => {
+					:Ruth =>	{}
+					:Mat => {}
+					:Andrew => {}
 				},
 				cars: {
-					Benz: {price => "$35000"}
-					Rolls: {price => "$60000"}
-					Toyota: {price => "15000"}
+					:Benz => {price => "$35000"}
+					:Rolls => {price => "$60000"}
+					:Toyota => {price => "15000"}
 				 }
 			}
 		}
@@ -42,9 +42,9 @@ def monopoly_with_fourth_tier
 					:Andrew => {"age" => "16"}
 				},
 				cars: {
-					Benz => {"price" => "$35000"}
-					Rolls => {"price" => "$60000"}
-					Toyota => {"price" => "15000"}
+					:Benz => {"price" => "$35000"}
+					:Rolls => {"price" => "$60000"}
+					:Toyota => {"price" => "15000"}
 				 }
 			}
 		}
