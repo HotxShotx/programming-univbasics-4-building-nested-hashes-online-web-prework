@@ -24,9 +24,9 @@ def monopoly_with_third_tier
 					:Andrew => {}
 				},
 				cars: {
-					:Benz => {price => "$35000"}
-					:Rolls => {price => "$60000"}
-					:Toyota => {price => "15000"}
+					:Benz => {"price" => "$35000"}
+					:Rolls => {"price" => "$60000"}
+					:Toyota => {"price" => "15000"}
 				 }
 			}
 		}
